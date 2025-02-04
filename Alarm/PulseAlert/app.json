@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "PulseAlert",
+    "slug": "pulsealert",
+    "version": "1.0.0",
+    "sdkVersion": "52.0.0",
+    "platforms": ["ios", "android", "web"],
+    "icon": "./assets/images/icon.png",
+    "entryPoint": "./App.js",  
+    "assetBundlePatterns": ["assets/**/*"],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    }
+      }
+    }
+  
